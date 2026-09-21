@@ -20,6 +20,7 @@ const CommunityBoards = () => {
 	const [freeArticles, setFreeArticles] = useState<BoardArticle[]>([]);
 
 	/** APOLLO REQUESTS **/
+	
 	const {
 		loading: getNewsArticlesLoading,
 		data: getNewsArticlesData,

@@ -23,6 +23,7 @@ const PopularProperties = (props: PopularPropertiesProps) => {
 	const [popularProperties, setPopularProperties] = useState<Property[]>([]);
 
 	/** APOLLO REQUESTS **/
+	
 	const {
 		loading: getPropertiesLoading,
 		data: getPropertiesData,

@@ -23,6 +23,7 @@ const TopAgents = (props: TopAgentsProps) => {
 	const [topAgents, setTopAgents] = useState<Member[]>([]);
 
 	/** APOLLO REQUESTS **/
+	
 	const {
 		loading: getAgentsLoading,
 		data: getAgentsData,
