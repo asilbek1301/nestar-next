@@ -94,7 +94,7 @@ const PropertyList: NextPage = ({ initialInput, ...props }: any) => {
 				variables: { input: id },
 			});
 			//execute getPropertiesRefetch
-			await getPropertiesRefetch({ input: initialInput });
+			await getPropertiesRefetch({ input: searchFilter });
 
 			await sweetTopSmallSuccessAlert('success', 800);
 		} catch (err: any) {
